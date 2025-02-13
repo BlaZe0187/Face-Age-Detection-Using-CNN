@@ -17,11 +17,11 @@ The labels are adjusted from 99 labels for each age to 4 labels belonging to the
 
 The images are then loaded into 3 different models which are:
 
--[x] Simple CNN model consisting of an input layer, 2 sets of Conv2D + MaxPooling2D layers and at last the outputs from the Convolutional layers are flattened and then sent to the Dense layer consisting of 4 neurons and softmax activation for final output of the model.
+- [x] Simple CNN model consisting of an input layer, 2 sets of Conv2D + MaxPooling2D layers and at last the outputs from the Convolutional layers are flattened and then sent to the Dense layer consisting of 4 neurons and softmax activation for final output of the model.
 
--[] A ResNet model used through transfer learning by utilising the transfer learning module available on tensorflow. The ResNet model is applied ont the dataset consisting of images of different faces belonging to different age groups.
+- [ ] A ResNet model used through transfer learning by utilising the transfer learning module available on tensorflow. The ResNet model is applied ont the dataset consisting of images of different faces belonging to different age groups.
 
--[] A VGG16 model also used through transfer learning from tensorflow and applied to the same dataset.
+- [ ] A VGG16 model also used through transfer learning from tensorflow and applied to the same dataset.
 
 The results from the model training are then evaluated using a confusion matrix and then tested with different images downloaded from the web whether they are being correctly classified or not.
 
