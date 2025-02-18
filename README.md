@@ -23,7 +23,7 @@ The images are then loaded into 3 different models which are:
 
 - [ ] A VGG16 model also used through transfer learning from tensorflow and applied to the same dataset.
 
-The results from the model training are then evaluated using a confusion matrix and then tested with different images downloaded from the web whether they are being correctly classified or not.
+The results from the model training are then evaluated using a confusion matrix and then tested with different images downloaded from the web whether they are being correctly classified or not. The transfer learning models are utlized to compare how models with deeper architecture and complexity perform in comparison to each other and the simple CNN model in terms of accuracy of results as well as ease of training the model on the dataset.
 
 ### Results
 
